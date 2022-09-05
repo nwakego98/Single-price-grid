@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/nwakego98/Single-price-grid.git
 - Live Site URL:
 
 ## My process
