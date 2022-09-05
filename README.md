@@ -47,10 +47,73 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
 
 ```css
+   @media only screen and (min-width: 768px){
+        .wrap{
+          max-width: 700px;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: repeat(2, auto);
+        }
+        .cardone{
+          grid-column: 1 / 3;
+          grid-row: 1 / 2;
+          padding: 1.875rem 2.5rem;
+        }
+        .cardone h2{
+          font-size: 1.125rem;
+        }
+        .cardone p{
+          width: 95%;
+          font-size: 1.0625rem;
+        }
+      
+        .cardtwo{
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          border-bottom-left-radius: .3125rem;
+          padding: 1.875rem 2.5rem;
+        }
+        .cardthree{
+          grid-column: 2 / 3;
+          grid-row: 2 / 3;
+          border-bottom-left-radius: 0rem;
+          padding: 1.875rem 2.5rem;
+        }
+      }
 
+      @keyframes fadeRight {
+        from{
+          opacity: 0;
+          transform: translateX(10rem);
+        }
+        to{
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      @keyframes fadeLeft {
+        from{
+          opacity: 0;
+          transform: translateX(-10rem);
+        }
+        to{
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes fadeTop {
+        from{
+          opacity: 0;
+          transform: translateY(-10rem);
+        }
+        to{
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
 
 ### Continued development
 
